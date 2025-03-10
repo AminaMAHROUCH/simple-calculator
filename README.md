@@ -47,7 +47,7 @@ Vous pouvez maintenant démarrer le serveur de développement Laravel.
 ```bash
 php artisan serve
 ```
-Vous pouvez y accéder via : http://localhost:8000/calculator
+Vous pouvez y accéder via : http://localhost:8000/
 
 ### 6. Exécuter les tests unitaires
    Pour exécuter à la fois les tests unitaires et les tests fonctionnels, utilisez la commande suivante :
