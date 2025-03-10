@@ -7,16 +7,16 @@
 </head>
 <body>
     <h1>Calculator</h1>
-    <form action="{{ route('calculate') }}" method="POST">
+    <form action="{{ route('calculator.calculate') }}" method="POST">
         @csrf
-        <input type="number" name="number_1" placeholder="First number" required>
-        <select name="operation">
-            <option value="add">+</option>
-            <option value="subtract">-</option>
-            <option value="multiply">×</option>
-            <option value="divide">÷</option>
+        <input type="number" name="number1" placeholder="First number" required>
+        <select name="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">×</option>
+            <option value="/">÷</option>
         </select>
-        <input type="number" name="number_2" placeholder="Second number" required>
+        <input type="number" name="number2" placeholder="Second number" required>
         <button type="submit">Calculate</button>
     </form>
 
