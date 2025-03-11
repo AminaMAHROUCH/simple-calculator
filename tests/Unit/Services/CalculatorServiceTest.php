@@ -6,7 +6,7 @@ use App\Services\Calculator\CalculatorService;
 use App\Services\Calculator\Enums\Operator;
 use PHPUnit\Framework\TestCase;
 
-class CalculatorTest extends TestCase
+class CalculatorServiceTest extends TestCase
 {
     private CalculatorService $calculatorService;
 
