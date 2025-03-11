@@ -4,54 +4,20 @@
 
 Ce projet Laravel implémente une application pour une calculatrice simple.
 
-## Fonctionnalités
+## Fonctionnalités implémentées
 
-- Calculs en fonction des entrées utilisateur (addition, soustraction, multiplication, division).
-- Tests unitaires et tests fonctionnels pour garantir le bon fonctionnement de l'application.
+* [x] Calculs en fonction des entrées utilisateur (addition, soustraction, multiplication, division).
+* [x] Tests unitaires et tests fonctionnels pour garantir le bon fonctionnement de l'application.
+<img width="562" alt="image" src="https://github.com/user-attachments/assets/564adcff-7a5a-4837-9766-5b0aba732e78" />
 
-## Installation
+## Technologies utilisées
+- PHP 8.2
+- Laravel 12
+- PHPUnit
+  
+## Étapes d'installation
 
-### 1. Cloner le projet
-
-Clonez ce repository dans votre répertoire local en utilisant Git.
-
-```bash
-git clone https://github.com/AminaMAHROUCH/simple-calculator.git
-```
-### 2. Installer les dépendances
-
-Installez les dépendances via Composer.
-
-```bash
-cd simple-calculator
-composer install
-```
-
-### 3. Configuration de l'environnement
-
-Copiez le fichier `.env.example` et renommez-le en `.env`.
-
-```bash
-cp .env.example .env
-```
-### 4. Générer la clé d'application
-
-Générez une nouvelle clé d'application avec la commande Artisan.
-
-```bash
-php artisan key:generate
-```
-### 5. Lancer le serveur de développement
-Vous pouvez maintenant démarrer le serveur de développement Laravel.
-
-```bash
-php artisan serve
-```
-Vous pouvez y accéder via : http://localhost:8000/
-
-### 6. Exécuter les tests unitaires
-   Pour exécuter à la fois les tests unitaires et les tests fonctionnels, utilisez la commande suivante :
-
-   ```bash
-   php artisan test
-   ```
+* Clone repository
+* `composer install`
+* `composer setup` (copies `env` file, generates key)
+* Then run ``` php artisan serve ```
